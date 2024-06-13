@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Letter</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart-link" onclick="toggleLetter()">
+            <div class="heart"></div>
+        </div>
+        <div class="content" id="letterContent" style="display: none;">
+            <p>Chantel,</p>
+            <p>Ek wil net eerstens se baie dankie vir alles. Jy het so vinnig een van gunsteling mense geword en so diep in my hart in geklim. Hierdie laaste jaar was, om eerlik te wees, baie moeilik vir my. Maar ek kon elke dag wakker word en uitsien om die dag saam jou aan te vat en vertou daarop dat jy my altyd sal my glimlag en beter voel. Baie dankie daarvoor. En baie dankie vir al die liefde en ondersteuning. Die hulp en net 'n groot mamma hart wat soveel omgee. Jy is 'n wonderlike persoon, Chantel. Moet dit nooit vergeet nie. En as jy so baie vir my beteken, kan ek nie eers my indink hoe kosbaar jy vir die Here is nie. Mens kan sien dat Hy in jou hart is en dit skyn deur jou. Jou verhouding met die Here is vir my so mooi en ek bid vir alles goed en mooi verder vir jou. Jy verdien dit maal 'n duisend. Ek is baie lief vir jou en ek is altyd hier vir jou. Ek gaan jou baie mis.</p>
+            <p>Met Liefde,</p>
+            <p>Karla</p>
+        </div>
+    </div>
+    <script>
+        function toggleLetter() {
+            var content = document.getElementById('letterContent');
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+            } else {
+                content.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
